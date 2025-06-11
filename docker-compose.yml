@@ -40,7 +40,7 @@ services:
       - ./deployment/nginx/nginx.conf:/etc/nginx/nginx.conf
       - streams_data:/streams
     ports:
-      - "80:80"
+      - "9380:80"
     networks:
       - app-network
 
